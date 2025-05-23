@@ -12,28 +12,39 @@
     <div id="wheelbarrow"></div>
     <div id="wheelbarrow-foreground"></div>
 
-
     <!-- Kitties -->
 
-    <img src="images/kitty-5.png" alt="Kitty 5">
+    <!-- Kitty 5 -->
+    <div id="introduction">
+      <img src="images/kitty-5.png" alt="Kitty 5">
+    </div>
 
-    <img class="kitty-1" src="images/kitty-1.png" alt="Kitty 1">
+    <!-- Kitty 1 -->
+    <div id="kitty">
+      <img class="kitty-1" src="images/kitty-1.png" alt="Kitty 1">
+    </div>
 
-    <img id="kitty-2" src="images/kitty-2.png" alt="Kitty 2">
+    <!-- Kitty 2 -->
+    
+      <img id="kitty-2" src="images/kitty-2.png" alt="Kitty 2">
+    
 
+    <!-- Kitty 3 inside #basket -->
     <div id="basket">
       <img src="images/kitty-3.png" alt="kitty 3">
     </div>
 
+    <!-- Ball (for adjacent sibling selector) -->
     <div id="ball"></div>
-    <img src="images/kitty-4.png" alt="kitty 4">
-    
+    <img src="images/kitty-4.png" alt="kitty 4"> <!-- moved outside of #ball for correct sibling relation -->
 
   </div><!-- .wrapper -->
+
   <audio id="player1">
     <source src="audio/purrr.mp3" type="audio/mp3">
     <source src="audio/purrr.ogg" type="audio/ogg">
   </audio>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/purr-click.js"></script>
 </body>
